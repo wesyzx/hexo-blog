@@ -97,7 +97,13 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: leedom
-  
+
+#search
+search:
+  path: search.xml
+  field: post
+  content: true
+ 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
